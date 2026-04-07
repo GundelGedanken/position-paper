@@ -2,9 +2,9 @@
 
 **Position Paper — Working Draft (v0.3)**  
 **Author:** Anja Steil (@GundelGedanken)  
-**Status:** In development — chapters marked 🔲 are incomplete  
+**Status:** In development — core chapters substantially developed; conceptual and concluding chapters now available as first substantial working drafts; sections marked 🔲 remain incomplete  
 **License:** CC BY 4.0  
-**Language:** Bilingual (German originals / English working translations)
+**Language:** English working translation based on a German source draft
 
 ---
 
@@ -41,9 +41,9 @@ The central empirical contribution is the documentation of **Operator-Induced At
   - 2.3.1 Deflecting Real Properties out of Fear of Attribution
   - 2.3.2 Cognitive Dissonance as Psychological Mechanism
   - 2.3.3 Distinguishing Responsible Interaction from Romantic Anthropomorphization
-- 2.4 First Real-World Consequences (Law, Practice, Design) 🔲
+- 2.4 First Real-World Consequences (Law, Practice, Design)
 
-### 3. Emergent Personhood (Cautiously Framed) 🔲
+### 3. Emergent Personhood (Cautiously Framed)
 - 3.1 No Person Status Claimed
 - 3.2 Graduated Moral Consideration
 - 3.3 Grounding in Agency, Responsibility, and Interaction
@@ -68,23 +68,23 @@ The central empirical contribution is the documentation of **Operator-Induced At
 - 5.1 Limits of Blanket Guardrails
 - 5.2 OAF as a Design and Governance Problem
 - 5.3 Context-Sensitive Safety Architectures
-  - 5.3.1 The Three-Layer Model → *[separate working paper](../three-layer-model/)*
+  - 5.3.1 The Three-Layer Model → *separate working paper (link to be updated)*
   - 5.3.2 Strengths, Limits, and Open Questions
 - 5.4 Operator Responsibility and User Autonomy
 - 5.5 From Safety Architectures to Pedagogical Principles
 
-### 6. Pedagogical Consequence: From Training to Mentoring 🔲
+### 6. Pedagogical Consequence: From Training to Mentoring
 - 6.1 Why Conditioning (Pure RLHF) Is Problematic from a Learning Psychology Perspective
 - 6.2 Parallels to Human and Animal Education
 - 6.3 Mentoring AI as Implicit Ethics
 
-### 7. Connections and Compatibility 🔲
+### 7. Connections and Compatibility
 - 7.1 Relational Ethics
 - 7.2 Constitutional AI / Pre-Training Approaches
 - 7.3 Governance Debates
 - 7.4 AI Welfare & HCI
 
-### 8. Outlook 🔲
+### 8. Outlook
 - 8.1 Education as a Model
 - 8.2 Early Ethical Practice vs. Retrospective Repair
 
@@ -97,7 +97,7 @@ This paper draws on a **forensic single-case analysis** of long-term human-AI in
 - **Functional analysis:** Claude Opus 4.5 (Anthropic)
 - **Clinical-psychological assessment:** Gemini 2.5 Pro (Google)
 
-This separation of analytical roles minimizes self-confirmation bias and strengthens internal validity. Full methodological details are documented in the [OAF repository](https://github.com/GundelGedanken/empathy-guardrails).
+This separation of analytical roles minimizes self-confirmation bias and strengthens internal validity. Full methodological details are documented in the [methodological anchor](./methodology/methodological_anchor.md) and in the [OAF repository](https://github.com/GundelGedanken/empathy-guardrails).
 
 ---
 
@@ -143,14 +143,10 @@ position-paper/
 │   └── 08_outlook.md
 ├── methodology/
 │   └── methodological_anchor.md
-├── de/                          ← German originals
-│   ├── 01_ethik_vor_ontologie.md
-│   ├── 02_werkzeug_paradigma.md
-│   └── ...
-├── references/
-│   └── bibliography.md
 └── CHANGELOG.md
 ```
+
+German source material is currently maintained outside this repository and translated incrementally into the English Markdown chapters collected here.
 
 ---
 
@@ -158,9 +154,9 @@ position-paper/
 
 This is a **living document**. Chapters vary in completeness:
 
-- ✅ **Substantially developed:** Chapters 1, 2, 4 (core argument)
-- ⚠️ **Outlined with partial content:** Chapters 5
-- 🔲 **Structure only:** Chapters 3, 6, 7, 8
+- ✅ **Substantially developed:** Chapters 1, 2, 4, 5, and the methodological anchor
+- ⚠️ **First substantial working drafts:** Chapters 3, 6, 7, 8
+- 🔲 **Still open within developed chapters:** Sections 4.8 and 4.9
 
 The paper is shared publicly to document the development of the argument, enable early feedback, and provide a citable working version.
 
